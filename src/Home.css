@@ -143,7 +143,7 @@ section{
     left: 630px;
     margin: 72px;
     color: rgb(255, 183, 0);
-    font-family: "Sacramento", cursive;
+    font-family: "Open sans", cursive;
     padding:0 90px;
 
 }
@@ -152,7 +152,7 @@ section{
     font-size: 6vh;
     padding: 11px 114px;
     color: wheat;
-    font-family: "Sacramento", cursive;
+   font-family: "Open sans", cursive;
     padding: 40px;
 
 }
@@ -162,7 +162,7 @@ section{
     color: wheat;
     padding: 41px 63px;
     border-color: goldenrod;
-    font-family: "Sacramento", cursive;
+    font-family: "Open sans", cursive;
     padding: 40px;
 
 }
