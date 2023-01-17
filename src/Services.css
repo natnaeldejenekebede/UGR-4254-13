@@ -1,0 +1,297 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: montserrat;
+    background-image: url(image/lalibela.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.logo{
+    position: absolute;
+    font-size: 55px;
+    text-align: center;
+    line-height: 80px;
+    font-weight: bold;
+    position: relative;
+    top: 70px;
+    left: 22px;
+
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(103, 70, 70);
+    padding: 33px 33px;
+
+}
+
+.navbar-links ul{
+    margin: 0;
+    padding: 0 22px;
+    display: flex;
+}
+
+.navbar-links li{
+    list-style: none;
+}
+.navbar-links li a{
+    text-decoration: none;
+    color: white;
+    padding: 1.2rem;
+    display: block;
+    font-size: 2em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navbar-links li:hover{
+    background-color: #555;
+    border-radius: 90px;
+} 
+.toggle-button{
+    position: absolute;
+    top: .88em;
+    right: 2em;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 60px;
+    height: 29px;
+    padding:45em em;
+    cursor: pointer;
+
+}
+    .navbar-links.active{
+        display: flex;
+    }
+
+
+.toggle-button .bar{
+    height: 3px;
+    width: 100%;
+    background-color:white;
+    border-radius: 10px;
+}
+
+
+
+@media screen and (max-width:1120px){
+    .toggle-button{
+        display: flex;
+        color: white;
+    }
+
+    .navbar-links{
+        display: none;
+    }
+    .toggle-button .bar{
+        display: flex;
+    }
+
+    nav{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar-links ul{
+        width: 100%;
+        flex-direction: column;
+
+    }
+    .navbar-links li{
+        text-align: center;
+    }
+    .navbar-links li a{
+        padding: .5em 1rem;
+    }
+
+}
+
+
+nav ul li.btn a{
+    position: relative;
+    background: transparent;
+    border: 1px solid white;
+    height: 20px;
+
+    border-radius: 30px;
+    top: 23px;
+    line-height: 1%;
+    color: orange;
+    font-weight: 400;
+
+}
+
+nav ul li.btn:hover a{
+    background-color: rgb(158, 127, 70);
+    color: white;
+    border: 1px solid transparent;
+    transition: .3s;
+}
+@media (max-width: 999px){
+    lable.logo{
+        padding-left: 60px;
+        font-size: 62px;
+
+    }
+    nav ul li a{
+        font-size: 33px;
+    }
+}
+
+@media (max-width: 1322px){
+    .allicon{
+        display: none;
+        flex-direction: column;
+    }
+
+}
+
+
+
+.telegram{
+    font: 100px;
+    bottom: 30px;
+    gap: 22px;
+    padding: 12px;
+
+}
+
+
+.twitter{
+    font: 100px;
+    bottom: 30px;
+    padding: 12px;
+
+}
+
+.instagram{
+    font: 100px;
+    bottom: 30px;
+    padding: 12px;
+
+}
+
+.facebook{
+    font: 100px;
+    bottom: 30px;
+    padding: 12px;
+}
+.allicon{
+    border: 1px solid;
+    color: wheat;
+    background-color: white;
+    font-size: 44px;
+    text-align: center;
+    gap: 22px;
+    display: flex;
+    padding: 42px 220px;
+
+}
+
+.email{
+   
+    text-align: left;
+    left: 150px;
+    top: 30px;
+}
+.social{
+    bottom: 30px;
+    left: 900px;
+    color: black;
+}
+
+
+.travel{
+    font-size: 7vh;
+    text-align: center;
+    top: 80px;
+    padding:60px 43px;
+    font-family: "Sacramento", cursive;
+
+}
+
+.para{
+    font-size: 4vh;
+    text-align: center;
+    top: 120px;
+    padding: 90px;
+    font-family: "Sacramento", cursive;
+
+}
+
+.table{
+    font-size: 3vh;
+    top: 201px;
+    text-align: cente;
+    color: wheat;
+    left: 250px;
+    border-collapse: collapse;
+    border-spacing: 0;
+    padding: 33px 177px; 
+    margin: 44px;
+}
+
+table, th, td {
+  border: 3px solid ;
+  border-collapse: collapse;
+    
+}
+    
+th, td {
+    padding: 12px;
+    
+}   
+
+
+.services{
+    color: white;
+    font-size: 5vh;
+    border: px solid;
+    background-color: rgba(0, 0, 0,0.7);
+}
+.food{
+    font-size: 3.5vh;
+    color: wheat;
+    background-color: rgba(128,128,128,0.8);
+}
+.health{
+    font-size: 3.5vh;
+    color: white;
+    background-color: rgba(0, 0, 0,0.8);
+}
+
+
+table,th,td{
+    text-align: left;
+    padding: 8px;
+}
+.tent{
+    position: relative;
+    border: 1px double;
+    font-size: 3.5vh;
+    color: white;
+    background-color: gray;
+    background-color: rgba(128,128,128,0.8);
+}
+.car{
+    font-size: 3.5vh;
+    color: white;
+    background-color: rgba(0, 0, 0,0.8);
+}
+
+@media screen and (max-width:954px) {
+    .table{
+        width: 85;
+        padding: 12px;
+        display: flex;
+    }
+    
+}

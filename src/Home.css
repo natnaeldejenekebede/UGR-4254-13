@@ -1,0 +1,238 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(image/background7.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.logo{
+    font-size: 55px;
+    text-align: center;
+    line-height: 80px;
+    font-weight: bold;
+    position: absolute;
+    top: 70px;
+    left: 22px;
+
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(103, 70, 70);
+    padding: 33px 33px;
+
+}
+
+.navbar-links ul{
+    margin: 0;
+    padding: 0 22px;
+    display: flex;
+}
+
+.navbar-links li{
+    list-style: none;
+}
+.navbar-links li a{
+    text-decoration: none;
+    color: white;
+    padding: 1.2rem;
+    display: block;
+    font-size: 2em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navbar-links li:hover{
+    background-color: #555;
+    border-radius: 90px;
+} 
+.toggle-button{
+    position: absolute;
+    top: .88em;
+    right: 2em;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 60px;
+    height: 29px;
+    padding:45em em;
+    cursor: pointer;
+}
+
+
+    .navbar-links.active{
+        display: flex;
+    }
+
+
+.toggle-button .bar{
+    height: 3px;
+    width: 100%;
+    background-color:white;
+    border-radius: 10px;
+}
+nav ul li.btn a{
+    background: transparent;
+    border: 1px solid white;
+    padding: 4px 4px;
+    border-radius: 30px;
+    padding: 10px;
+    line-height: 2;
+    color: orange;
+    font-weight: 400;
+
+}
+
+nav ul li.btn:hover a{
+    background-color: rgb(158, 127, 70);
+    color: white;
+    border: 1px solid transparent;
+    transition: .3s;
+}
+@media screen and (max-width:1120px){
+    .toggle-button{
+        display: flex;
+        color: white;
+    }
+
+    .navbar-links{
+        display: none;
+    }
+    .toggle-button .bar{
+        display: flex;
+    }
+
+    nav{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar-links ul{
+        width: 100%;
+        flex-direction: column;
+
+    }
+    .navbar-links li{
+        text-align: center;
+    }
+    .navbar-links li a{
+        padding: .5em 1rem;
+    }
+    .allicon{
+        flex-direction: column;
+    }
+}
+
+section{
+   background: url(background2.jpj) no-repeat;
+   background-size: cover;
+   height: calc(100vh-);
+}
+
+
+.welcome{
+    font-size: 8vh;
+    text-align: center;
+    top: 300px;
+    left: 630px;
+    margin: 72px;
+    color: rgb(255, 183, 0);
+    font-family: "Sacramento", cursive;
+    padding:0 90px;
+
+}
+.para1{
+    text-align: center;
+    font-size: 6vh;
+    padding: 11px 114px;
+    color: wheat;
+    font-family: "Sacramento", cursive;
+    padding: 40px;
+
+}
+.para2{
+    text-align: center;
+    font-size: 5vh;
+    color: wheat;
+    padding: 41px 63px;
+    border-color: goldenrod;
+    font-family: "Sacramento", cursive;
+    padding: 40px;
+
+}
+.telegram{
+    left: 1500px;
+    font: 100px;
+    bottom: 30px;
+    padding: 0 60px;
+}
+.twitter{
+    left: 1600px;
+    font: 100px;
+    bottom: 30px;
+    padding: 0 60px;
+
+}
+
+.instagram{
+    left: 1700px;
+    font: 100px;
+    bottom: 30px;
+    padding: 0 40px;
+
+}
+.facebook{
+    left: 1800px;
+    font: 100px;
+    bottom: 30px;
+    padding: 0 40px;
+}
+.allicon{
+    position: relative;
+    border: 1px solid;
+    color: wheat;
+    background-color: rgba(110, 157, 255,0.4);
+    background-color: white;
+   
+    font-size: 44px;
+    text-align: center;
+    display: flex;
+    padding: 74px 225px;
+    gap: 20px;
+   
+}
+.email{
+    text-align: left;
+    left: 150px;
+    top: 30px;
+}
+.social{
+    bottom: 30px;
+    left: 1000px;
+    color: black;
+}
+.audio{
+    width: 70%;
+    margin: 92px 200px;
+}
+@media screen and (max-width:1188px) {
+    .audio{ 
+        margin: 52px 232px;
+    }
+    
+}
+
+
+@media screen and (max-width:876px) {
+    .audio{
+        width: 70%;
+        margin: 52px 72px;
+    }
+    
+}
