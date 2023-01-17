@@ -139,7 +139,7 @@ h1{
     padding: 70px;
     border-radius: 20px;
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.7);
-    font-family: "Sacramento", cursive;
+    font-family: "Open sans", cursive;
     background-color: rgb(189, 205, 145);
     color: black;
     margin: auto;
@@ -155,7 +155,7 @@ h1{
     box-shadow: 0 5px 20px;
     background-color: black;
     border-radius: 10px;
-    font-family: "Sacramento", cursive;
+    font-family: "Open sans", cursive;
     background-color: rgb(166, 178, 132);
     color: black;
     padding: 70px;
@@ -170,7 +170,7 @@ h1{
     border-radius: 10px;
     box-shadow: 0 5px 20px;
     padding: 70px;
-    font-family: "Sacramento", cursive;
+    font-family: "Open sans", cursive;
     background-color: rgb(160, 172, 128);
     color: black;
    /* margin: 55px; */
